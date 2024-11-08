@@ -1,0 +1,100 @@
+#TopClass .item_wrap {
+	display: flex;
+	gap: 30px;
+}
+
+#TopClass .swiper {
+	width: 100%;
+	height: 100%;
+}
+
+#TopClass .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#TopClass .swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+#TopClass .swiper-slide {
+	width: 80%;
+}
+
+#TopClass .swiper-slide:nth-child(2) {
+	width: 80%;
+}
+
+#TopClass .swiper-slide:nth-child(3) {
+	width: 80%;
+}
+
+#TopClass .item_wrap a {
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+	background-color: #111;
+}
+
+#TopClass .item_wrap a::before {
+	position: absolute;
+	content: "";
+	width: 0;
+	top: 0;
+	left: 0;
+	height: 0;
+	border-top: 16px solid #fff;
+	border-bottom: 16px solid transparent;
+	border-left: 16px solid #fff;
+	border-right: 16px solid transparent;
+}
+
+#TopClass .item_wrap .item_desc {
+	padding: 30px 20px;
+}
+
+#TopClass .item_wrap .item_desc .item_top {
+	display: flex;
+	justify-content: space-between;
+}
+
+#TopClass .item_wrap .item_desc .item_top .user span {
+	color: #fff;
+	font-size: 0.975em;
+}
+
+#TopClass .item_wrap .item_desc .item_top .star i {
+	color: #FFC229;
+}
+
+#TopClass .item_wrap .item_desc .item_bottom {
+	padding-top: 14px;
+}
+
+#TopClass .item_wrap .item_desc .item_bottom p {
+	color: #fff;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 100%;
+	font-size: 0.975em;
+	height: 70px;
+	color: #8f918c;
+	display: -webkit-box;
+   	-webkit-line-clamp: 3;
+   	-webkit-box-orient: vertical
+}
+
+@media only screen and (max-width: 760px) {
+	#section1 .item_wrap .item {
+		width: 100%;
+	}
+}

@@ -1,0 +1,18 @@
+.mobile_quick {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	width: 100%;
+	padding: 0 25px;
+	z-index: 99;
+}
+
+.mobile_quick ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.mobile_quick ul a {
+	line-height: 80px;
+}

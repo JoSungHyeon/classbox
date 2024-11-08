@@ -1,0 +1,43 @@
+.etc_btn {
+	position: fixed;
+	bottom: 40px;
+	right: 10px;
+	z-index: 999;
+}
+
+.etc_btn .btn_wrap{
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+}
+
+.etc_btn button {
+	border: none;
+	border-radius: 50%;
+	text-align: center;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+}
+
+.etc_btn button.quick_menu {
+	padding: 0 10px;
+	background-color: #006CB7;
+	color: #fff;
+}
+
+.etc_btn button.quick_top {
+	line-height: 100px;
+	position: relative;
+}
+
+.etc_btn button.quick_top::before {
+	position: absolute;
+	content: "";
+	background: url(../../../public/btn_top.png);
+	width: 15px;
+	height: 11px;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 20px;
+}
